@@ -1,8 +1,8 @@
 <?php
 
-$myArray = array("Rob", "Kirsten", "Tommy", "Ralphie");
+$myArray = array("Mohit", "Tushar", "Kunal", "Vipul");
 
-$myArray[] = "Katie";
+$myArray[] = "Alankrit";
 
 print_r($myArray);
 
@@ -12,11 +12,11 @@ echo "<br><br>";
 
 $anotherArray[0] = "pizza";
 
-$anotherArray[1] = "yoghurt";
+$anotherArray[1] = "Maggi";
 
 $anotherArray[5] = "coffee";
 
-$anotherArray["myFavouriteFood"] = "ice cream";
+$anotherArray["myFavFood"] = "ice cream";
 
 print_r($anotherArray);
 
@@ -26,7 +26,7 @@ $thirdArray = array(
     
     "France" => "French", 
     "USA" => "English", 
-    "Germany" => "German");
+    "India" => "Hindi");
 
 unset($thirdArray["France"]);
 
