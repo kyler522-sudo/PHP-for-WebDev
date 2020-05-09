@@ -1,6 +1,6 @@
 <?php
 
-$name = "Rob";
+$name = "Mohit";
 
 echo "<p>My name is $name</p>";
 
@@ -10,9 +10,9 @@ $string2 = "of a sentence</p>";
 
 echo $string1." ".$string2;
 
-$myNumber = 45;
+$myNumber = 43;
 
-$calculation = $myNumber * 31 / 97 + 4;
+$calculation = $myNumber * 32 / 80 + 3;
 
 echo "The result of the calculation is ".$calculation;
 
