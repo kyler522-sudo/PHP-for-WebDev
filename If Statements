@@ -1,0 +1,29 @@
+<?php
+
+$user = "Mohit";
+
+if ($user == "Rahul") {
+    
+    echo "Hello Mohit!";
+    
+} else {
+    
+    echo "I don't know you";
+    
+}
+
+echo "<br><br>";
+
+$age = 16;
+
+if ($age >= 18 || $user == "Mohit") {
+    
+    echo "You may proceed...";
+    
+} else {
+    
+    echo "You are too young, sorry!";
+    
+}
+
+?>
